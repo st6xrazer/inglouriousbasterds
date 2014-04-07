@@ -1,0 +1,12 @@
+$(function(){
+	$("#flipcountdownbox1").flipcountdown({
+		tzoneOffset:-3,
+		am:true,
+		size:"sm"
+	});
+	$("#flipcountdownbox2").flipcountdown({
+		tzoneOffset:6,
+		am:true,
+		size:"sm"
+	});	
+})

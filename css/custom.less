@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Alfa+Slab+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@caps: uppercase;
+@navFontColor: #C9C9C9;
+@bxShadow: #444;
+@borderColor: #000;
+@white: #fff;
+@black: #000;
+
+/*	GLOBAL */
+h4 {
+	color: @black;
+	border-bottom: 1px dotted #999;
+	padding: 5px 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/bg.jpg) fixed no-repeat;
+}
+footer {
+	background: url('../img/gplaypattern.png');
+	box-shadow: 0 0 10px @bxShadow;
+	margin-top: 1.5em;
+	padding: 10px 0;
+}
+.modal-content {
+	background: url('../img/gplaypattern.png');
+}
+
+.nav {
+	text-transform: @caps;
+}
+.navbar-default {
+	background: url('../img/dark_mosaic.png');
+	border-color: @borderColor;
+	box-shadow: 0 0 10px @bxShadow;
+		.navbar-brand {
+			font-family: 'Alfa Slab One', cursive;
+			text-transform: @caps;
+			color: #f0f0f0;
+		}
+			.navbar-nav>li>a {
+				font-size: 16px;
+				color: @navFontColor;
+			}
+}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+	color: @white;
+}
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+	color: @white;
+}
+
+ul.links {
+	list-style: none;
+	padding: 0;
+}
+ul.news {
+	padding: 0;
+}
+.contents {
+	background: rgba(24, 24, 24, 0.88);
+	box-shadow: 0 0 5px #222;
+	padding: 1.2em;
+	color: #E0E0E0;
+}
+.text-content {
+	background: rgba(255, 255, 255, 0.89);
+	padding: 15px;
+}
+.jumbotron {
+	background-color: rgba(238, 238, 238, 0.44);
+}
+.carousel-caption {
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.68);
+}
