@@ -56,69 +56,12 @@
 
 <div class="container">
 	<div class="row">
-		<article class="col-lg-8">
-      <div class="text-content">
-      
-			<p>Originally created to provide a community of like minded individuals within Planetside 2, the gaming group now plays multiple games. The Inglourious Basterds have always staked their claim at being one of the best Australian gaming groups. Our senior leadership has a long history of community management over the last 12 years in many different online games – from Counter-Strike, various Battlefield titles and mods, World of Warcraft, and now Planetside 2.
-
-			<p>Our strategy is to maintain a full roster of organised, active players to enable us to dominate any game that we play. Skilled and engaged players are rewarded with more responsibility for managing the different groups within the organisation and 			those who fail to play as a team member will be swiftly shown the door.</p>
-			
-			<p>Our command structure is split into five ranks:-</p>
-			<ul>
-				<li>Colonel – outfit leaders responsible for administration and outfit strategy</li>
-				<li>Captain -senior officers responsible for everyday running of the outfit and platoons</li>
-				<li>Lieutenant – junior officer responsible for recruitment, squad leadership and enforcing the SOP for their squad</li>
-				<li>Corporal – veteran member without leadership duties, expected to set an example for new recruits</li>
-				<li>Private – new recruit</li>
-			</ul>	
-			<p>We do weekly training to implement effective military doctrine (where applicable) such as close squad tactics (movement, fire and comms discipline), manoeuvre warfare and overwhelming fire power through the use of heavy assets.</p>
-
-			<p>We are not a zergfit and full membership is not given lightly. We may not turn out 200 people at a point but we always can fight the enemy when heavily outnumbered and win the day through superior tactics and discipline.</p>
-			
-			<p>Whether on operations or just playing casual, we’re here to have fun above all – we 			just think that a well organised combat unit is incredibly fun!</p>
-      </div>
-
-
-		</article>
-  
-    <aside class="col-lg-4">
-      <div class="sidebar">
-        
-      </div>
-
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                Mumble Details
-              </a>
-            </h5>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <p>Server Name: <b>mumble.basterds.net</b></p>
-                <p>Password: <b>scrub</b></p>
-            </div>
-          </div>
+    <div id="container">
+        <div class="galleria">
+            <img src="img/inglourious_logo.png">
+            <img src="img/skull_logo.png">
         </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                Server Status(Briggs)
-              </a>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p class="bg-success">ONLINE</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </aside>
-
+    </div>    
 	</div>
 </div>
 
@@ -247,6 +190,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.flipcountdown.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-
+    <script src="js/galleria-1.3.5.min.js"></script>
+    <script>
+      Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+      Galleria.run('.galleria');
+    </script>
   </body>
 </html>
