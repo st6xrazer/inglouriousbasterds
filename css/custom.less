@@ -3,10 +3,11 @@
 
 @caps: uppercase;
 @navFontColor: #C9C9C9;
-@bxShadow: #444;
-@borderColor: #000;
+@bxShadow: #0F0F0F;
+@borderColor:  #0C0C0C;
 @white: #fff;
 @black: #000;
+
 
 /*	GLOBAL */
 h4 {
@@ -17,7 +18,7 @@ h4 {
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: url(../img/bg.jpg) fixed no-repeat;
+	background: url(../img/bg.jpg) fixed;
 }
 footer {
 	background: url('../img/gplaypattern.png');
@@ -35,7 +36,7 @@ footer {
 .navbar-default {
 	background: url('../img/dark_mosaic.png');
 	border-color: @borderColor;
-	box-shadow: 0 0 10px @bxShadow;
+	box-shadow: 0 5px 0 @bxShadow;
 		.navbar-brand {
 			font-family: 'Alfa Slab One', cursive;
 			text-transform: @caps;
@@ -69,11 +70,15 @@ ul.news {
 	color: #E0E0E0;
 }
 .text-content {
-	background: rgba(255, 255, 255, 0.89);
+	background: rgba(0, 0, 0, 0.88);
 	padding: 15px;
+	border-radius: 0 0 10px 0;
+	p, ul {
+		color: #ccc;
+	}
 }
 .jumbotron {
-	background-color: rgba(238, 238, 238, 0.44);
+	background-color: rgba(0, 0, 0, 0.65);
 }
 .carousel-caption {
 	color: #FFF;
@@ -82,5 +87,5 @@ ul.news {
 .galleria { 
 	width: 100%; 
 	height: 550px; 
-	background: #000 
+	background: #000;
 }
